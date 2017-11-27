@@ -4,7 +4,7 @@ description: Deploy Scheduled Task to AWS ECS
 keywords:
   - aws
   - ecs
-  - scheduled task
+  - task definition
 properties:
   # Step 1: Configuring AWS
   key:
