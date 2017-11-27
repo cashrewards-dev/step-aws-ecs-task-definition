@@ -1,4 +1,4 @@
-name: aws-ecs-scheduled-task
+name: aws-ecs-task-definition
 version: 0.0.1
 description: Deploy Scheduled Task to AWS ECS
 keywords:
