@@ -1,32 +1,33 @@
+# step.yml
 name: aws-ecs-task-definition
-version: 0.0.1
-description: Deploy Scheduled Task to AWS ECS
-keywords:
+version: 0.1.0
+summary: Deploy Scheduled Task to AWS ECS
+tags:
   - aws
   - ecs
   - task definition
 properties:
   # Step 1: Configuring AWS
-  key:
+  - name: key
     type: string
     required: true
-  secret:
+  - name: secret
     type: string
     required: true
-  region:
+  - name: region
     type: string
     required: false
 
   # Step 2: Defining Task Definition
-  task-definition-name:
+  - name: task-definition-name
     type: string
     required: true
-  container-memory:
+  - name: container-memory
     type: string
     required: true
-  container_command:
+  - name: container_command
     type: string
     required: true
-  task_definition_template:
+  - name: task_definition_template
     type: string
     required: true  
